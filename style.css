@@ -1,0 +1,58 @@
+
+body{
+    text-align: center;
+    margin: 0px;
+}
+
+.menu
+{
+    background-color: violet;
+    position: fixed;
+    width: 100%;
+top: 0;
+margin-top: 0px;
+/* for making an item fixed on top */
+z-index: 10;   
+}
+.links
+{
+    display: inline;
+    font-size: 30px;
+    margin-left: 25px;
+}
+.nav
+{
+    text-decoration: none;
+    color: brown;
+}
+/* howering- when mouse pointer touch something it enhances */
+/* pseudo clss- selector:pseudo-class{property-value; */
+    .nav:hover{
+        font-size: 40px;
+        color: red;
+    }
+    html{
+        scroll-behavior: smooth;
+    }
+    #profile
+    {
+        margin-top: 100px;
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+    }
+       h3
+    {
+        font-family: 'Martian Mono', monospace;
+        margin-top: 0px;
+        font-size: 75px;
+    }
+    h1
+    {
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+        margin-top: 0px;
+        font-size: 75px;
+    }
+#Home{
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+}
